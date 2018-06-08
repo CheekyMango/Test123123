@@ -1,0 +1,27 @@
+ | Where-Object {$_.Name -eq "ALG"}
+
+
+An Object:
+
+
+Name                : XblGameSave
+RequiredServices    : {XblAuthManager, UserManager}
+CanPauseAndContinue : False
+CanShutdown         : False
+CanStop             : False
+DisplayName         : Xbox Live Game Save
+DependentServices   : {}
+MachineName         : .
+ServiceName         : XblGameSave
+ServicesDependedOn  : {XblAuthManager, UserManager}
+ServiceHandle       : SafeServiceHandle
+Status              : Stopped
+ServiceType         : Win32ShareProcess
+StartType           : Manual
+Site                : 
+Container           : 
+
+
+----
+
+Get-EventLog -LogName a -After a -Before a -ComputerName a -InstanceId a -Message a -Newest a -Source a -UserName a
